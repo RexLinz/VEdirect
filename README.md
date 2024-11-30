@@ -13,5 +13,3 @@ Values transmitted e.g. as integers in mV will be converted float according to t
 2. **Victron SmartSolar 75/15 MPTT charger** test data captured with logic analyzer (see example *parseStringTest.cpp*)
 
 3. **Victron Phoenix 12/1200 inverter** test data captured with logic analyzer (see example *parseStringTest.cpp*)
-
-Phoenix 
