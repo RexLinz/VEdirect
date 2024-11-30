@@ -8,11 +8,11 @@ Values transmitted e.g. as integers in mV will be converted float according to t
 
 ## Library has been tested with the following devices
 
-1. **Victron SmartSolar 75/15 MPTT charger** 
+1. **Victron SmartSolar 75/15 MPTT charger**  
 Connected to serial line (see example *serialParseTest.cpp*)
 
-2. **Victron SmartSolar 75/15 MPTT charger** 
+2. **Victron SmartSolar 75/15 MPTT charger**  
 Using test data captured with logic analyzer (see example *parseStringTest.cpp*)
 
-3. **Victron Phoenix 12/1200 inverter** 
+3. **Victron Phoenix 12/1200 inverter**  
 Using test data captured with logic analyzer (see example *parseStringTest.cpp*)
