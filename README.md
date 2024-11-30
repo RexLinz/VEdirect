@@ -6,7 +6,10 @@ Keyword / value pairs to be captured from the VEdirect frame could be configured
 
 Values transmitted e.g. as integers in mV will be converted float according to the number of digital places configured for the keys to be captured.
 
-**NOTE** Level of debugging output to serial console could be defined in top of VEdirect.cpp
+**NOTE**  
+
+1. Level of debugging output to serial console could be defined in top of VEdirect.cpp  
+2. At the moment the library parses ASCII messages only. HEX messages are logged to console if debugging level is set to 2 or 3
 
 Implementation is based on Victron's VEdirect protocol specification
 [VE Direct Protocol-3.33.pdf](https://www.victronenergy.com/upload/documents/VE.Direct-Protocol-3.33.pdf)
