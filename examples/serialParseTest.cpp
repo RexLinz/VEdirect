@@ -46,8 +46,8 @@ void setup()
 {
     Serial.begin(115200);
     Serial.println();
-    Serial.println("========================");
-    Serial.println("ESP MQTT client starting");
+    Serial.println("============================");
+    Serial.println("VEdirect test on serial line");
     Serial.println();
     while (Serial.available())
         Serial.read(); // clear input
