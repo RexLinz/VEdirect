@@ -6,6 +6,9 @@ Keyword / value pairs to be captured from the VEdirect frame could be configured
 
 Values transmitted e.g. as integers in mV will be converted float according to the number of digital places configured for the keys to be captured.
 
+Implementation is based on Victron's VEdirect protocol specification
+[VE Direct Protocol-3.33.pdf](https://www.victronenergy.com/upload/documents/VE.Direct-Protocol-3.33.pdf)
+
 ## Library has been tested with the following devices
 
 1. **Victron SmartSolar 75/15 MPTT charger**  
